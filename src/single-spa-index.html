@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <base href="/">
+    <title></title>
+</head>
+
+<body>
+    <section id="header"></section>
+    <section id="main"></section>
+    <section id="footer"></section>
+    <section class="loader-wrapper">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyB6XvAWTXCwbgvYIzAb_fm_kh3JBL1epJQ",
+            authDomain: "single-spa.firebaseapp.com",
+            databaseURL: "https://single-spa.firebaseio.com",
+            projectId: "single-spa",
+            storageBucket: "",
+            messagingSenderId: "710213964706"
+        };
+        firebase.initializeApp(config);
+    </script>
+</body>
+
+</html>
